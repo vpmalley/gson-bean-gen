@@ -73,10 +73,11 @@ def visitAndPrintBean(beanName, sampleBean):
 
   
   # writing to the file
-  beanF = open(beans_dir + beanName + file_ext, 'w');
+  filePath = beans_dir + beanName + file_ext;
+  beanF = open(filePath, 'w');
   beanF.write(beanFileContent);
   beanF.close();
-  print '  generated bean ' + beanName + ' to file ' + beanName + file_ext;
+  print '  generated bean ' + beanName + ' to file ' + filePath;
 
 
 
