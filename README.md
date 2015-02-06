@@ -1,26 +1,35 @@
 # gson-bean-gen
 A python script to generate Java bean classes based on a sample json object.
 
+You have a json object and you want to use [Gson] or [Jackson] to parse it? Here is a python script to create your Java classes for the beans to be parsed out of a sample json file. Clone the repo with the script and execute it, passing just the sample json file
+
 ## Quick and easy
 
-1. clone this repository
+#### Clone this repository
 
-    git clone https://github.com/vpmalley/gson-bean-gen.git
+```bash
+  git clone https://github.com/vpmalley/gson-bean-gen.git
+```
 
-2. copy a sample json file to the directory
+#### Copy a sample json file to the directory
 
-    cd ./gson-bean-gen
-    cp /path/to/sample.json .
+```bash
+  cd ./gson-bean-gen
+  cp /path/to/sample.json .
+```
 
-3. run the python script
+#### Run the python script
 
-    ./gson-bean-gen.py sample.json MyBean
+```bash
+  ./gson-bean-gen.py sample.json
+```
 
-4. Collect your Java files in beans directory
+#### Collect your Java files in beans directory
 
-   ls ./beans
-   
-   
+```bash
+  ls ./beans
+```
+
 ## Customizable
 
 You can change a few things by passing these arguments:
@@ -34,3 +43,7 @@ You can change a few things by passing these arguments:
 ## Extensible
 
 Do not hesitate to extend the script and add a pull request to share it with everyone.
+
+
+[Gson]: https://sites.google.com/site/gson/gson-user-guide
+[Jackson]: http://wiki.fasterxml.com/JacksonHome
