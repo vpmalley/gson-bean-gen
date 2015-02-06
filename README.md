@@ -1,7 +1,9 @@
 # gson-bean-gen
 A python script to generate Java bean classes based on a sample json object.
 
-You have a json object and you want to use [Gson] or [Jackson] to parse it? Here is a python script to create your Java classes for the beans to be parsed out of a sample json file. Clone the repo with the script and execute it, passing just the sample json file
+You have a json object and you want to use [Gson] or [Jackson] to parse it? Here is a python script to create your Java classes for the beans to be parsed out of a sample json file. Clone the repo with the script and execute it, passing just the sample json file.
+
+It also works well in complement of [retrofit] or [scribe]
 
 ## Quick and easy
 
@@ -47,3 +49,5 @@ Do not hesitate to extend the script and add a pull request to share it with eve
 
 [Gson]: https://sites.google.com/site/gson/gson-user-guide
 [Jackson]: http://wiki.fasterxml.com/JacksonHome
+[retrofit]: http://square.github.io/retrofit/
+[scribe]: https://github.com/fernandezpablo85/scribe-java
