@@ -23,6 +23,7 @@ It also works well in complement of [retrofit] or [scribe]
 #### Run the python script
 
 ```bash
+  chmod +x gson-bean-gen.py # make sure it is executable
   ./gson-bean-gen.py sample.json
 ```
 
