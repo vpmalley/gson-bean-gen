@@ -10,27 +10,27 @@ It also works well in complement of [retrofit] or [scribe]
 #### Clone this repository
 
 ```bash
-  git clone https://github.com/vpmalley/gson-bean-gen.git
+git clone https://github.com/vpmalley/gson-bean-gen.git
 ```
 
 #### Copy a sample json file to the directory
 
 ```bash
-  cd ./gson-bean-gen
-  cp /path/to/sample.json .
+cd ./gson-bean-gen
+cp /path/to/sample.json .
 ```
 
 #### Run the python script
 
 ```bash
-  chmod +x gson-bean-gen.py # make sure it is executable
-  ./gson-bean-gen.py sample.json
+chmod +x gson-bean-gen.py # make sure it is executable
+./gson-bean-gen.py sample.json
 ```
 
 #### Collect your Java files in beans directory
 
 ```bash
-  ls ./beans
+ls ./beans
 ```
 
 ## Customizable
